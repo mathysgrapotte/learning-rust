@@ -16,3 +16,4 @@ Instead of saving the result of the build in the same directory as our code, Car
 
 The command `cargo build --release` can be used to build the project with optimizations for release. This will generate a smaller and faster executable, but the build process may take longer.
 
+I am currently at [Chapter 2: Guessing Game Tutorial](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html) in the Rust book.
