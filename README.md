@@ -23,6 +23,3 @@ To get started with Rust, you can follow the official Rust documentation and tut
 ## Progress
 
 I will be updating this README file regularly to track my progress and document the concepts I have learned. You can find the details of my progress in the [Progress](./PROGRESS.md) file.
-
-
-
