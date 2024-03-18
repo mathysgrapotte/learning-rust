@@ -16,4 +16,9 @@ Instead of saving the result of the build in the same directory as our code, Car
 
 The command `cargo build --release` can be used to build the project with optimizations for release. This will generate a smaller and faster executable, but the build process may take longer.
 
+## guessing game 
+
+Small guessing game as described in the Rust book, it is there to learn about depedencies, which are written in the Cargo.toml file. 
+I find this way of working quite interesting as this ensures reproductibility in the code. 
+
 I am currently at [Chapter 2: Guessing Game Tutorial](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html#comparing-the-guess-to-the-secret-number) in the Rust book.
