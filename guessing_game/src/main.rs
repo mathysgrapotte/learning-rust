@@ -1,7 +1,12 @@
 use std::io;
+use rand::Rng;
 
 fn main() {
     println!("Guess the number!");
+
+    let secret_number = rand::thread_rng().gen_range(1..=100); // gen_range is a method of the Rng trait, which is implemented for the thread_rng function. The range is inclusive on both ends (1 and 100 are both possible values)
+
+    println!("The secret number is: {secret_number}");
 
     println!("Please input your guess."); // println! is a macro that prints a string to the screen
 
